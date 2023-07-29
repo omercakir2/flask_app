@@ -3,6 +3,9 @@ from api.users import apiUsers
 from api.admins import apiAdmins
 from api.products import apiProducts
 
+
+omer = "Omer"
+
 app = Flask(__name__)
 
 app.register_blueprint(apiAdmins)
