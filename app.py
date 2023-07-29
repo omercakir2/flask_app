@@ -4,7 +4,6 @@ from api.admins import apiAdmins
 from api.products import apiProducts
 
 
-omer = "Omer"
 
 app = Flask(__name__)
 
