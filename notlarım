@@ -1,0 +1,7 @@
+flask kuruldu.
+flask app çalıştırıldı.
+daha düzenli ilerlemek adına api klasörü adı altında diğer python kodlarımızı yazdık.
+api içindeki kodlarımızı Blueprint yardımıyla app.py içine kaydettik.
+Database kullanmak için PostGreSQl kuruldu.
+PG Admin 4 indirildi.
+SQLAlchemy kuruldu.
