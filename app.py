@@ -10,7 +10,7 @@ app.register_blueprint(apiProducts)
 
 @app.route('/')
 def hello_page():
-    return jsonify("this is our welcome page")
+    return jsonify("Welcome to our website")
 
 
 
