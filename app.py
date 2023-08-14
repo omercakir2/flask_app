@@ -4,7 +4,15 @@ from flask import Flask,jsonify
 from api.users import apiUsers
 from api.admins import apiAdmins
 from api.products import apiProducts
-app = Flask(__name__)
+
+ #databasei ecommerceden import etmek lazım
+from ecommerce import createApp
+from ecommerce.initialize_db import createDB
+
+
+app = createApp()
+createDB()
+
 
 #ardından blueprint ile appimize kayıt ettik
 app.register_blueprint(apiAdmins)
